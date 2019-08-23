@@ -21,6 +21,7 @@ RUN curl -o ~/miniconda.sh -O https://repo.continuum.io/miniconda/Miniconda3-lat
 	pyyaml \
 	scipy \
 	ipython \
+	jupyter \
 	mkl \
 	mkl-include \
 	ninja \
@@ -39,4 +40,4 @@ RUN pip install ffmpeg
 RUN pip install keras tensorflow-gpu
 RUN pip install chainer cupy-cuda100
 RUN conda install -y -c conda-forge opencv
-RUN pip install librosa
+RUN conda install -c conda-forge librosa
