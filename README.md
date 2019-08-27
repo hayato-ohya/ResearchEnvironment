@@ -32,7 +32,7 @@ sudo docker run --gpus all  --rm --name test_container -it test/default-dl-image
 `
 
 ## Version
-Ubuntu: 18.04  
+Ubuntu: 16.04  
 CUDA: 10.0  
 cuDNN: 7.0  
 Python: 3.6  
